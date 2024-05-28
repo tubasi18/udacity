@@ -1,0 +1,22 @@
+.post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-image {
+  width: 40%;
+  height: auto;
+  border-radius: 50px;
+}
+
+.post-content {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fad8d8;
+  padding: 10px;
+  margin: 30px 0 30px 0;
+  border-radius: 10px;
+}

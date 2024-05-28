@@ -1,0 +1,26 @@
+.about-us-container {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.about-us {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-us-content {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-us-content-ul {
+  padding: 0;
+}
+
+.about-us-content-li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}

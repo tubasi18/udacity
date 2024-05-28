@@ -1,0 +1,28 @@
+.navbar {
+  background-image: linear-gradient(260deg, #1e0101 0%, #631c14 100%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1px 0 0 0;
+}
+
+.main-nav {
+  list-style: none;
+}
+
+.nav-section {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 6px 20px;
+  display: block;
+}
+
+.nav-section:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.main-nav {
+  display: flex;
+}

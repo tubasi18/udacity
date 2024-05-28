@@ -1,0 +1,107 @@
+@import url(navbar.css);
+@import url(about.css);
+@import url(footer.css);
+@import url(news.css);
+@import url(postnew.css);
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.image-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+}
+
+.agents {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.agent {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.agent-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  .agents {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .agent {
+    max-width: none;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .agent-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .container {
+    padding: 20px 10px;
+  }
+  
+  .nav-section {
+    font-size: 14px;
+    padding: 10px;
+  }
+  
+  .footer-content {
+    font-size: 14px;
+  }
+}
