@@ -1,1 +1,1 @@
-# udacity
+# Weather-Journal App Project
