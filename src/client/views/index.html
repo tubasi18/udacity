@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Plan your journey.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel App</title>
+</head>
+
+<body>
+  <header class="header">
+    Travel App
+  </header>
+  <main class="main">
+    <section class="form">
+      <div>
+        <strong>Place:</strong>
+        <input id="place" type="text" name="place" placeholder="Name of the Place" />
+      </div>
+
+      <div>
+        <strong>Trip Date:</strong>
+        <input id="date" type="date" name="date" />
+      </div>
+
+      <div>
+        <button id="submit">Add Trip</button>
+      </div>
+    </section>
+
+    <section id="result-box">
+      <div class="text-center">Saved Trips</div>
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://www.linkedin.com/in/mahertubasi/">Made by Maher</a>
+  </footer>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+          .then(registration => {
+            console.log('Service Worker registered with scope:', registration.scope);
+          })
+          .catch(error => {
+            console.error('Service Worker registration failed:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html>
