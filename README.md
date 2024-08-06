@@ -59,6 +59,13 @@ The Travel Planner App is a web application that allows users to plan their trip
     npm run build-prod
     ```
     This will create a `dist` folder with your production ready application.
-
+3. **Start the server**
+    ```bash
+    npm run start
+    ```
+4. **Open your browser and go to**
+    ```bash
+    http://localhost:1000/
+    ```
 ## Contributing
 - If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
